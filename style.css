@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[name]{
+    width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+ #b1{
+  background-color: lightblue;
+ }
+#s1{
+  width: 20%;
+
+}
+#s1:hover{
+  opacity: 0.5;
+}
+<!--contact-->
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  
+  background-image: url("a2.jpg");
+  
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  
+  height: 100%; 
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image2 {
+  
+  background-image: url("a5.jpg");
+  
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  
+  height: 100%; 
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+div.gallery {
+  margin-bottom: 200px;
+  margin:24px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-bottom: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 150px;
+}
+
+div.desc {
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+#img3{
+  width: 163px;
+}
+#img4:hover{
+  opacity: 0.5;
+
+}
+#img5:hover{
+  opacity: 0.5;
+}
+.logo{
+height: 40px;
+margin-top:3px;
+
+
+}

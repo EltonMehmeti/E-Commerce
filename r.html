@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function openSlideMenu(){
+            document.getElementById("menu").style.width = "250px";
+            document.getElementById("content").style.marginLeft = "250px";
+        }
+        function closeSlideMenu(){
+            document.getElementById("menu").style.width = "0px";
+            document.getElementById("content").style.marginLeft = "0px";
+        }
+    </script>
+</head>
+<body>
+
+    <div id="content">
+        <span class="slide">
+            <a href="#" onclick="openSlideMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </span>
+        <div class="nav" id="menu">
+            <a href="#" class="close" onclick="closeSlideMenu()">
+                <i class="fas fa-times"></i></a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+<style type="text/css">body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .6s; 
+}
+.nav a{
+    display: block;
+    padding: 20px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ccc;
+}
+.nav a:hover{
+    color: #fff;
+    transition: .4s;
+}
+.nav .close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.slide a{
+    color: #000;
+    font-size: 36px;
+}
+#content{
+    padding: 20px;
+    transition: margin-left 0.6s;
+    overflow: hidden;
+}</style>
+<div class="gallery">
+  <a target="_blank" href="https://www.dell.com/en-us/shop/cty/pdp/spd/alienware-area51-r5/dpcwcntr502s">
+    <img src="a6.jpg" width="600" height="400">
+  </a>
+  <div class="desc">ALIENWARE AREN 51</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.dell.com/en-us/shop/cty/pdp/spd/alienware-m15-laptop/wnorn5chm156h">
+    <img src="a7.png"  width="600" height="400">
+  </a>
+  <div class="desc">ALIENWARE M15 </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.dell.com/en-us/shop/dell-laptops/alienware-17-gaming-laptop/spd/alienware-17-laptop">
+    <img src="a8.jpg" width="600" height="400">
+  </a>
+  <div class="desc">ALIENWARE 17 R4</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.dell.com/en-us/shop/cty/pdp/spd/alienware-15-laptop/dkcwcflf044v2">
+    <img id="img3" src="a9.jpg" width="550" height="400">
+  </a>
+  <div class="desc">ALIENWARE 15 r3</div>
+</div>
+<div class="gallery">
+    <a target="_blank" href="https://www.dell.com/en-us/shop/cty/pdp/spd/alienware-aurora-r8-desktop/wdshatcrr820af">
+        <img src="a11.png" width="600" height="400">
+    </a>
+    <div class="desc">ALIENWARE AURORA</div>
+    
+</div>
+<div class="gallery">
+    <a target="_blank" href="https://www.dell.com/en-us/shop/dell-desktop-computers/alienware-area-51-threadripper-edition/spd/alienware-area51-r6/DPCWCntR601s">
+        <img src="a12.jpg" width="600" height="400">
+    </a>
+    <div class="desc">ALIENWARE 51 EDITION</div>
+</div>
+</body>
+</html>
